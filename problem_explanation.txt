@@ -1,0 +1,42 @@
+John Nelson - jpnelson
+
+For this project I chose to solve Problem 2: Too Many Cooks.
+My solutions were very similar between mutex and semaphore with only syntax changes accordingly.
+I solved the problem by having 3 threads running as chefs taking in orders and performing them
+to completion.  There was also a 4th thread I called the waiter that created orders
+at random time intervals.  A chef would check if there are any orders in the list of orders and
+then check if 30 or more orders have been started.  If more than 30 orders were started,
+the chef would exit the kitchen.  If there were no orders in the list, the chef would wait for
+the waiter to place one in the orders list and signal.  Then, the chef would read the list
+of jobs and pick a job apporpriately.
+I avoided deadlocks by allowing each chef to see the recipe the others were working on and
+the step in the recipe that they were currently on.  If the first order in the list would
+cause a deadlock with currently running orders, then the chef would move up the list until a 
+safe order could be found.  However, if the first job in the list had been waiting for more than
+1.5 times its expected wait time the chef was forced to wait for the chance of the deadlock
+to dissappear and then take the first order.  I found that deadlocks occured between recipe 4 and recipes 1, 3, and 5 because of the switch between oven and prep.  There was also a deadlock when all three chefs had at least one recipe 1 or 5 and the others had 1, 3, or 5.  Sometimes, the chefs
+could be in the prep, oven, and sink but they were in a strange three way deadlock. I checked for
+these cases when picking the right order to conduct for a chef.
+When performing an order, a chef would gain access to a region, sleep for however long
+they were supposed to work in the area, gain access to their next region and finally give up
+access to the first region.  This ensured that no two chefs were in the same space and that a chef
+did not move into the waiting area during a recipe.
+All of the actions performed during the program are printed to the terminal.
+
+Question 1:
+
+In what cases can a deadlock occur? Is there a reliable way to predict a deadlock in advance and avoid such scenarios?
+
+Answer:
+
+A deadlock can occur if two threads are waiting on access to the critical regions that each are currently occupying.  Lets say thread A is in region 1 and wants to move to region 2.  Also, thread B is in region 2 and wants to move to region 1.  Both threads will wait on the mutex or semaphore of the other's critical region and never move because the target region is occupied.
+If you know the order of events that a thread will go through then you can predict when two threads will deadlock in their sequence. For example, 
+
+Question 2:
+
+What is the most fair way to avoid starvation? In what cases is it reasonable to sacrifice perfor-
+mance/parallelism to avoid starvation?
+
+Answer:
+
+The most fair way to avoid starvation is to allow access to a critical region to the thread that has been waiting the longest to enter it.  You can also prioritize a job that has been waiting the longest in the list of jobs to be processed after a set amount of time.  For example, I found that my synchronization solution always picked recipe 2 and 4 first so that deadlocks could be avoided.  Recipes 1, 3, and 5 were put off till the end.  However, I forced the chef threads to pick the first job in the list of jobs if that job had been waiting for longer than 1.5 times its expected runtime.

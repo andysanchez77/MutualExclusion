@@ -1,0 +1,328 @@
+jpnelson@ubuntu:~/Documents/project3/mutex$ ./tooManyCooks 
+Cook 3 ready to work.
+Cook 2 ready to work.
+Cook 1 ready to work.
+Order 0 (Recipe 4) has arrived.
+Chef 3 has begun to prepare Order 0 (Recipe 4).
+Chef 3 is in the oven area.
+Order 1 (Recipe 3) has arrived.
+Order 2 (Recipe 4) has arrived.
+Chef 1 has begun to prepare Order 2 (Recipe 4).
+Chef 3 has left the oven area for the prep.
+Chef 3 is in the prep area.
+Chef 1 is in the oven area.
+Order 3 (Recipe 2) has arrived.
+Chef 2 has begun to prepare Order 3 (Recipe 2).
+Chef 3 has left the prep area for the sink.
+Chef 3 is in the sink area.
+Chef 2 is in the prep area.
+Order 4 (Recipe 5) has arrived.
+Chef 3 has left the sink area.
+Chef 3 has finished Order 0 (Recipe 4).
+Chef 3, Order 0: expected time 24; actual time 24.
+Order 5 (Recipe 3) has arrived.
+Chef 2 has left the prep area for the stove.
+Chef 2 has left the stove area for the sink.
+Chef 1 has left the oven area for the prep.
+Chef 1 is in the prep area.
+Order 6 (Recipe 1) has arrived.
+Order 7 (Recipe 4) has arrived.
+Chef 2 has left the sink area.
+Chef 2 has finished Order 3 (Recipe 2).
+Chef 2, Order 3: expected time 23; actual time 24.
+Chef 1 has left the prep area for the sink.
+Chef 1 is in the sink area.
+Chef 1 has left the sink area.
+Chef 1 has finished Order 2 (Recipe 4).
+Chef 1, Order 2: expected time 24; actual time 34.
+Chef 3 has begun to prepare Order 1 (Recipe 3).
+Chef 1 has begun to prepare Order 4 (Recipe 5).
+Chef 1 is in the prep area.
+Chef 1 has left the prep area for the oven.
+Chef 1 is in the oven area.
+Chef 3 is in the prep area.
+Order 8 (Recipe 1) has arrived.
+Chef 1 has left the oven area for the sink.
+Chef 1 is in the sink area.
+Order 9 (Recipe 3) has arrived.
+Chef 3 has left the prep area for the oven.
+Chef 3 is in the oven area.
+Chef 1 has left the sink area for the prep.
+Chef 1 is in the prep area.
+Chef 2 has begun to prepare Order 5 (Recipe 3).
+Order 10 (Recipe 2) has arrived.
+Chef 3 has left the oven area for the sink.
+Chef 3 is in the sink area.
+Chef 1 has left the prep area for the oven.
+Chef 1 is in the oven area.
+Chef 2 is in the prep area.
+Chef 3 has left the sink area.
+Chef 3 has finished Order 1 (Recipe 3).
+Chef 3, Order 1: expected time 20; actual time 21.
+Chef 3 has begun to prepare Order 6 (Recipe 1).
+Chef 1 has left the oven area for the sink.
+Chef 1 is in the sink area.
+Order 11 (Recipe 3) has arrived.
+Chef 1 has left the sink area.
+Chef 1 has finished Order 4 (Recipe 5).
+Chef 1, Order 4: expected time 16; actual time 26.
+Chef 2 has left the prep area for the oven.
+Chef 2 is in the oven area.
+Chef 3 is in the prep area.
+Chef 3 has left the prep area for the stove.
+Chef 2 has left the oven area for the sink.
+Chef 2 is in the sink area.
+Order 12 (Recipe 3) has arrived.
+Order 13 (Recipe 3) has arrived.
+Chef 2 has left the sink area.
+Chef 2 has finished Order 5 (Recipe 3).
+Chef 2, Order 5: expected time 20; actual time 25.
+Chef 3 has left the stove area for the sink.
+Chef 3 has left the sink area for the prep.
+Order 14 (Recipe 3) has arrived.
+Chef 3 has left the prep area for the oven.
+Chef 2 has begun to prepare Order 7 (Recipe 4).
+Chef 1 has begun to prepare Order 10 (Recipe 2).
+Chef 1 is in the prep area.
+Chef 3 has left the oven area for the sink.
+Chef 1 has left the prep area for the stove.
+Chef 2 is in the oven area.
+Order 15 (Recipe 5) has arrived.
+Order 16 (Recipe 3) has arrived.
+Chef 3 has left the sink area.
+Chef 3 has finished Order 6 (Recipe 1).
+Chef 3, Order 6: expected time 26; actual time 34.
+Chef 1 has left the stove area for the sink.
+Order 17 (Recipe 5) has arrived.
+Chef 2 has left the oven area for the prep.
+Chef 2 is in the prep area.
+Order 18 (Recipe 4) has arrived.
+Chef 1 has left the sink area.
+Chef 1 has finished Order 10 (Recipe 2).
+Chef 1, Order 10: expected time 23; actual time 30.
+Chef 2 has left the prep area for the sink.
+Chef 2 is in the sink area.
+Order 19 (Recipe 2) has arrived.
+Chef 2 has left the sink area.
+Chef 2 has finished Order 7 (Recipe 4).
+Chef 2, Order 7: expected time 24; actual time 34.
+Chef 3 has begun to prepare Order 8 (Recipe 1).
+Chef 2 has begun to prepare Order 9 (Recipe 3).
+Chef 2 is in the prep area.
+Order 20 (Recipe 5) has arrived.
+Order 21 (Recipe 2) has arrived.
+Chef 2 has left the prep area for the oven.
+Chef 2 is in the oven area.
+Chef 3 is in the prep area.
+Chef 3 has left the prep area for the stove.
+Chef 2 has left the oven area for the sink.
+Chef 2 is in the sink area.
+Order 22 (Recipe 5) has arrived.
+Chef 2 has left the sink area.
+Chef 2 has finished Order 9 (Recipe 3).
+Chef 2, Order 9: expected time 20; actual time 20.
+Chef 3 has left the stove area for the sink.
+Chef 1 has begun to prepare Order 11 (Recipe 3).
+Chef 1 is in the prep area.
+Order 23 (Recipe 4) has arrived.
+Order 24 (Recipe 1) has arrived.
+Order 25 (Recipe 4) has arrived.
+Chef 1 has left the prep area for the oven.
+Chef 1 is in the oven area.
+Chef 3 has left the sink area for the prep.
+Chef 2 has begun to prepare Order 12 (Recipe 3).
+Chef 1 has left the oven area for the sink.
+Chef 1 is in the sink area.
+Chef 3 has left the prep area for the oven.
+Chef 2 is in the prep area.
+Order 26 (Recipe 2) has arrived.
+Order 27 (Recipe 2) has arrived.
+Chef 1 has left the sink area.
+Chef 1 has finished Order 11 (Recipe 3).
+Chef 1, Order 11: expected time 20; actual time 20.
+Chef 1 has begun to prepare Order 13 (Recipe 3).
+Chef 3 has left the oven area for the sink.
+Order 28 (Recipe 3) has arrived.
+Order 29 (Recipe 2) has arrived.
+All orders have been taken.
+Chef 1 is in the prep area.
+Chef 2 has left the prep area for the oven.
+Chef 2 is in the oven area.
+Chef 3 has left the sink area.
+Chef 3 has finished Order 8 (Recipe 1).
+Chef 3, Order 8: expected time 26; actual time 50.
+Chef 3 has begun to prepare Order 14 (Recipe 3).
+Chef 2 has left the oven area for the sink.
+Chef 2 is in the sink area.
+Chef 1 has left the prep area for the oven.
+Chef 1 is in the oven area.
+Chef 3 is in the prep area.
+Chef 2 has left the sink area.
+Chef 2 has finished Order 12 (Recipe 3).
+Chef 2, Order 12: expected time 20; actual time 25.
+Chef 2 has begun to prepare Order 15 (Recipe 5).
+Chef 1 has left the oven area for the sink.
+Chef 1 is in the sink area.
+Chef 3 has left the prep area for the oven.
+Chef 3 is in the oven area.
+Chef 2 is in the prep area.
+Chef 1 has left the sink area.
+Chef 1 has finished Order 13 (Recipe 3).
+Chef 1, Order 13: expected time 20; actual time 25.
+Chef 3 has left the oven area for the sink.
+Chef 3 is in the sink area.
+Chef 2 has left the prep area for the oven.
+Chef 2 is in the oven area.
+Chef 3 has left the sink area.
+Chef 3 has finished Order 14 (Recipe 3).
+Chef 3, Order 14: expected time 20; actual time 25.
+Chef 2 has left the oven area for the sink.
+Chef 2 is in the sink area.
+Chef 3 has begun to prepare Order 16 (Recipe 3).
+Chef 3 is in the prep area.
+Chef 3 has left the prep area for the oven.
+Chef 3 is in the oven area.
+Chef 2 has left the sink area for the prep.
+Chef 2 is in the prep area.
+Chef 1 has begun to prepare Order 17 (Recipe 5).
+Chef 3 has left the oven area for the sink.
+Chef 3 is in the sink area.
+Chef 2 has left the prep area for the oven.
+Chef 2 is in the oven area.
+Chef 1 is in the prep area.
+Chef 3 has left the sink area.
+Chef 3 has finished Order 16 (Recipe 3).
+Chef 3, Order 16: expected time 20; actual time 20.
+Chef 2 has left the oven area for the sink.
+Chef 2 is in the sink area.
+Chef 1 has left the prep area for the oven.
+Chef 1 is in the oven area.
+Chef 2 has left the sink area.
+Chef 2 has finished Order 15 (Recipe 5).
+Chef 2, Order 15: expected time 16; actual time 44.
+Chef 1 has left the oven area for the sink.
+Chef 1 is in the sink area.
+Chef 1 has left the sink area for the prep.
+Chef 1 is in the prep area.
+Chef 1 has left the prep area for the oven.
+Chef 1 is in the oven area.
+Chef 3 has begun to prepare Order 18 (Recipe 4).
+Chef 2 has begun to prepare Order 19 (Recipe 2).
+Chef 2 is in the prep area.
+Chef 1 has left the oven area for the sink.
+Chef 1 is in the sink area.
+Chef 3 is in the oven area.
+Chef 2 has left the prep area for the stove.
+Chef 1 has left the sink area.
+Chef 1 has finished Order 17 (Recipe 5).
+Chef 1, Order 17: expected time 16; actual time 25.
+Chef 2 has left the stove area for the sink.
+Chef 3 has left the oven area for the prep.
+Chef 3 is in the prep area.
+Chef 2 has left the sink area.
+Chef 2 has finished Order 19 (Recipe 2).
+Chef 2, Order 19: expected time 23; actual time 23.
+Chef 3 has left the prep area for the sink.
+Chef 3 is in the sink area.
+Chef 3 has left the sink area.
+Chef 3 has finished Order 18 (Recipe 4).
+Chef 3, Order 18: expected time 24; actual time 27.
+Chef 3 has begun to prepare Order 20 (Recipe 5).
+Chef 3 is in the prep area.
+Chef 1 has begun to prepare Order 21 (Recipe 2).
+Chef 2 has begun to prepare Order 22 (Recipe 5).
+Chef 3 has left the prep area for the oven.
+Chef 3 is in the oven area.
+Chef 1 is in the prep area.
+Chef 3 has left the oven area for the sink.
+Chef 3 is in the sink area.
+Chef 1 has left the prep area for the stove.
+Chef 2 is in the prep area.
+Chef 3 has left the sink area for the prep.
+Chef 3 is in the prep area.
+Chef 2 has left the prep area for the oven.
+Chef 2 is in the oven area.
+Chef 1 has left the stove area for the sink.
+Chef 1 has left the sink area.
+Chef 1 has finished Order 21 (Recipe 2).
+Chef 1, Order 21: expected time 23; actual time 25.
+Chef 3 has left the prep area for the oven.
+Chef 3 is in the oven area.
+Chef 2 has left the oven area for the sink.
+Chef 2 is in the sink area.
+Chef 2 has left the sink area for the prep.
+Chef 2 is in the prep area.
+Chef 3 has left the oven area for the sink.
+Chef 3 is in the sink area.
+Chef 2 has left the prep area for the oven.
+Chef 2 is in the oven area.
+Chef 1 has begun to prepare Order 23 (Recipe 4).
+Chef 3 has left the sink area.
+Chef 3 has finished Order 20 (Recipe 5).
+Chef 3, Order 20: expected time 16; actual time 32.
+Chef 2 has left the oven area for the sink.
+Chef 2 is in the sink area.
+Chef 1 is in the oven area.
+Chef 2 has left the sink area.
+Chef 2 has finished Order 22 (Recipe 5).
+Chef 2, Order 22: expected time 16; actual time 36.
+Chef 1 has left the oven area for the prep.
+Chef 1 is in the prep area.
+Chef 1 has left the prep area for the sink.
+Chef 1 is in the sink area.
+Chef 1 has left the sink area.
+Chef 1 has finished Order 23 (Recipe 4).
+Chef 1, Order 23: expected time 24; actual time 27.
+Chef 1 has begun to prepare Order 24 (Recipe 1).
+Chef 1 is in the prep area.
+Chef 1 has left the prep area for the stove.
+Chef 1 has left the stove area for the sink.
+Chef 1 has left the sink area for the prep.
+Chef 1 has left the prep area for the oven.
+Chef 2 has begun to prepare Order 25 (Recipe 4).
+Chef 3 has begun to prepare Order 26 (Recipe 2).
+Chef 3 is in the prep area.
+Chef 1 has left the oven area for the sink.
+Chef 3 has left the prep area for the stove.
+Chef 2 is in the oven area.
+Chef 1 has left the sink area.
+Chef 1 has finished Order 24 (Recipe 1).
+Chef 1, Order 24: expected time 26; actual time 26.
+Chef 1 has begun to prepare Order 27 (Recipe 2).
+Chef 1 is in the prep area.
+Chef 3 has left the stove area for the sink.
+Chef 1 has left the prep area for the stove.
+Chef 2 has left the oven area for the prep.
+Chef 2 is in the prep area.
+Chef 3 has left the sink area.
+Chef 3 has finished Order 26 (Recipe 2).
+Chef 3, Order 26: expected time 23; actual time 30.
+Chef 1 has left the stove area for the sink.
+Chef 1 has left the sink area.
+Chef 1 has finished Order 27 (Recipe 2).
+Chef 1, Order 27: expected time 23; actual time 30.
+Chef 2 has left the prep area for the sink.
+Chef 2 is in the sink area.
+Chef 2 has left the sink area.
+Chef 2 has finished Order 25 (Recipe 4).
+Chef 2, Order 25: expected time 24; actual time 49.
+Chef 3 has begun to prepare Order 28 (Recipe 3).
+Chef 2 has begun to prepare Order 29 (Recipe 2).
+Chef 2 is in the prep area.
+No remaining orders. Chef 1 is leaving the kitchen.
+Chef 2 has left the prep area for the stove.
+Chef 3 is in the prep area.
+Chef 2 has left the stove area for the sink.
+Chef 3 has left the prep area for the oven.
+Chef 3 is in the oven area.
+Chef 2 has left the sink area.
+Chef 2 has finished Order 29 (Recipe 2).
+Chef 2, Order 29: expected time 23; actual time 23.
+No remaining orders. Chef 2 is leaving the kitchen.
+Chef 3 has left the oven area for the sink.
+Chef 3 is in the sink area.
+Chef 3 has left the sink area.
+Chef 3 has finished Order 28 (Recipe 3).
+Chef 3, Order 28: expected time 20; actual time 28.
+No remaining orders. Chef 3 is leaving the kitchen.
+
